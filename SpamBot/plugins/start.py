@@ -5,7 +5,7 @@ from telethon import events, Button
 from telethon.tl.custom import button
 from SpamBot import BOT0, BOT1, BOT2, BOT3, BOT4, BOT5, BOT6, BOT7, BOT8, BOT9, ALIVE_PIC, OWNER_ID, OWNER_NAME
 
-DOLL_IMG = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/b296b25f4b193fdcad68c.jpg"
+DOLL_IMG = ALIVE_PIC if ALIVE_PIC else "https://graph.org/file/086e9b9fc0ef2403c2691.png"
 
 
 Button = [
@@ -38,15 +38,15 @@ async def start(e):
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
         myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
-        creator = f"[AnonymousSpamBot](https://github.com/KingXdOp/AnonymousSpamBot)"
+        creator = f"[Xotic](https://t.me/Xotic69"
         DOLL_ON = f"""
-ʜᴇʏ {mention},
-ᴛʜɪs ɪs sᴘᴀᴍʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
+**ʜᴇʟʟᴏ {mention},
+☞ ᴛʜɪs ɪs ᴛʜᴜɴᴅᴇʀ sᴘᴀᴍʙᴏᴛ!
+☞ ᴀ ᴠᴇʀʏ ᴘᴏᴡᴇʀғᴜʟʟ sᴘᴀᴍʙᴏᴛ
 
-ᴛʜɪs ʙᴏᴛ ᴏᴡɴᴇʀ:- {myOwner}
+**ᴄᴏᴅᴇ ᴄʀᴇᴀᴛᴏʀ** :- {creator}
+**[ᴏᴡɴᴇʀ ᴏғ ᴛʜɪs ʙᴏᴛ](t.me/{OWNER_NAME} **
 
-ᴄᴏᴅᴇ ᴄʀᴇᴀᴛᴏʀ:- {creator}
-
-ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴀᴄᴄᴇss sᴜᴘᴘᴏʀᴛ ,ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ʀᴇᴘᴏ!
+✘ ɪғ ʏᴏᴜ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ ʀᴇᴘᴏʀᴛ ɪᴛ ᴛᴏ ᴏᴜʀ [sᴜᴘᴘᴏʀᴛ](t.me/Xd_Bots_Support) ᴀɴᴅ ᴄʜᴀɴɴᴇʟ!**
     """
         await e.client.send_file(e.chat_id, DOLL_IMG, caption=DOLL_ON, buttons=Button)
