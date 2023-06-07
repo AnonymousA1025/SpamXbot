@@ -10,11 +10,11 @@ DOLL_IMG = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/b296b25f4b193fd
 
 Button = [
         [
-        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/Bothub_xD"),
-        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/Crush_world_xD")
+        Button.url("𝗖𝗵𝗮𝗻𝗻𝗲𝗹", "https://t.me/Bonten_Destroyers"),
+        Button.url("𝗦𝘂𝗽𝗽𝗼𝗿𝘁", "https://t.me/Xd_Bots_Support")
         ],
         [
-        Button.url("• Rᴇᴘᴏ •", "https://github.com/KingXdOp/AnonymousSpamBot")
+#        Button.url("• Rᴇᴘᴏ •", "https://github.com/KingXdOp/AnonymousSpamBot")
         ]
         ]
         
