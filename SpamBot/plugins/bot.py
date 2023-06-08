@@ -35,8 +35,8 @@ async def alive(event):
                                   caption=DOLL,
                                   buttons=[
         [
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Bothub_xD"),
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Crush_world_xD")
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Xd_Bots_Support"),
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Bonten_Destroyers")
 #        ],
 #        [
 #        Button.url("• •", "https://github.com/KingXdOp/AnonymousSpamBot")
