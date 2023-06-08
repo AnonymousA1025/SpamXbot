@@ -18,12 +18,12 @@ from datetime import datetime
 DOLL_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/b296b25f4b193fdcad68c.jpg"
 
 
-DOLL = "✯ 𝙎𝙥𝙖𝙢 𝘽𝙊𝙏 𝙃𝙀𝙍𝙀 ✯\n\n"
-DOLL += f"**꧁🇮🇳 🎀  𝑀𝒶𝒹𝑒 𝐼𝓃 𝐼𝓃𝒹𝒾𝒶  🎀 🇮🇳꧂**\n"
+DOLL = "✯ 𝙏𝙝𝙪𝙣𝙙𝙚𝙧 𝙎𝙥𝙖𝙢 ✯\n\n"
+DOLL += f"**[ᴄᴏᴅᴇ ᴄʀᴇᴀᴛᴏʀ](t.me/Xotic69) **\n"
 DOLL += f"═══════════════════\n"
 DOLL += f"• **𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽** : `3.10.1`\n"
 DOLL += f"• **𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽** : `{version.__version__}`\n"
-DOLL += f"• **𝚂𝙿𝙰𝙼 𝙱𝙾𝚃 𝚅𝙴𝚁𝚂𝙸𝙾𝙽**  : `{deadlyversion}`\n"
+DOLL += f"• **𝚃𝙷𝚄𝙽𝙳𝙴𝚁 𝙱𝙾𝚃 𝚅𝙴𝚁𝚂𝙸𝙾𝙽**  : `{deadlyversion}`\n"
 DOLL += f"═══════════════════\n\n"   
 
                                   
@@ -35,11 +35,11 @@ async def alive(event):
                                   caption=DOLL,
                                   buttons=[
         [
-        Button.url("☺️ᴄʜᴀɴɴᴇʟ☺️", "https://t.me/Bothub_xD"),
-        Button.url("🇮🇳sᴜᴘᴘᴏʀᴛ🇮🇳", "https://t.me/Crush_world_xD")
-        ],
-        [
-        Button.url("• 🙂ʀᴇᴘᴏ🙂 •", "https://github.com/KingXdOp/AnonymousSpamBot")
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Bothub_xD"),
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Crush_world_xD")
+#        ],
+#        [
+#        Button.url("• •", "https://github.com/KingXdOp/AnonymousSpamBot")
         ]
         ]
         )
@@ -88,7 +88,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n ⚡️𝙎𝙥𝙖𝙢 𝘽𝙊𝙏 𝙃𝙀𝙍𝙀⚡️ \n\n❤️ `{ms}` 𝗺𝘀 ❤️")
+        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n ⚡️𝙏𝙝𝙪𝙣𝙙𝙚𝙧 𝙎𝙥𝙖𝙢 𝙃𝙚𝙧𝙚⚡️ \n\n❤️ `{ms}` 𝗺𝘀 ❤️")
         
         
 
